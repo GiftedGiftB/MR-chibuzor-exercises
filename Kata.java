@@ -15,8 +15,10 @@ public static boolean isEven(int number){
 
 }
 
-public static boolean subtract(){
+public static boolean isSquare(int number){
+return (Math.sqrt(number) % 1 == 0){
 
+}
 }
 }
 
