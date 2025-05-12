@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class HighestNumber1{
+public class SecondHighestScore{
 	public static void main(String[] args){
 	Scanner scan = new Scanner(System.in);
 	
@@ -8,7 +8,7 @@ public class HighestNumber1{
 	int studentScore = 0;
 	int highestScore = 0;
 	int secondHighestScore = 0;
-	String HighestName = " ";	
+	String secondHighestName = " ";	
 
 	System.out.print("Enter number of student: ");
 	int NumberOfStudent = scan.nextInt();
@@ -25,16 +25,16 @@ public class HighestNumber1{
 	if (studentScore > highestScore){
 	
 	highestScore = studentName;
-	HighestName = ;
+	HighestName = " ";
 	secondHighestScore = highestScore;
+	secondHighestName = studentName
 	
 	}
 	counter++;
-
 	}
 	System.out.print("The student with the highest score is : "+ highestScore + secondHighestScore);
 	
-	System.out.print("Second highest score is : "+ highestScore + secondHighestScore);
+	System.out.print("Second highest score is : "+ secondHighestName + secondHighestScore);
 
   }   
 }
