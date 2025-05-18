@@ -1,11 +1,11 @@
 public class InputAndOutputTesting{
-	private Account[] accounts;
+	
 	public void setAccounts(Account[] accounts){
 		this.accounts = accounts;
 	}
 	
 	public void withdraw(String accountNumber, double amount){
-1. look for account with given accountNumber
+1. look ccount with given accountNumber
 	for(int index = 0; index < accounts.length;index++){
 		Account foundAccount = accounts[index];
 		String foundAccountNumber = foundAccount.getAccountNumber();
