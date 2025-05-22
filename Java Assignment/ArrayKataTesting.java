@@ -1,8 +1,39 @@
+import java.util.Scanner;
 public class ArrayKataTesting{
 	public static void main(String[] args){
+	Scanner input = new Scanner(System.in);
 
-	int[] number = {10,15,2,6,20};
-	System.out.print("The largest element in the array is: "+ 	ArrayKata.maximumIn(number));
- }
+	//number 1
+	
+	/* int[] numbers = {10,15,2,6,20};
+	System.out.print("The largest element in the array is:  " + ArrayKata.maximumIn(numbers)); */
+
+	
+	//number 2
+
+	/* int[] number = {10,15,2,6,20};
+	System.out.print("The smallest element in the array is: " + ArrayKata.minimumIn(number));*/
+
+	// number 3
+	
+	System.out.print("Enter a number: ");
+	int[] userNumber = {10,15,2,6,20};
+
+	System.out.print("The sum is: " + ArrayKata.sumOf(userNumber));
+
+	// number 6
+	System.out.print("Enter number of element: ");
+	int integer = input.nextInt();
+
+	int[] number = new int[integer];
+
+	for(int count = 0; count < number ; count++){
+		number[count] = input.nextInt();
+}
+	for(int count = 0; count < number ; count++){
+
+}
+	System.out.print("The maximum number is: " + ArrayKata.maximumAndMinimumOf());
+  }
 
 }
