@@ -37,6 +37,25 @@ public class ArrayKata{
 	return sum;
 	}
 	
+	// number 6
+
+	public static int[]  maximumAndMinimumOf(int[] maxMin){
+	int maximum = 0;
+	int minimum = 467839874;
+
+	for(int count = 0; count < maxMin.length; count++){
+
+	if(count[maxMin.length] > maximum){
+	maximum = count[maxMin.length];
+	}
+	if(count[maxMin.length] < minimum){
+	minimum = count[maxMin.length];
+	}
+	}
+	return 
+	}
+
+	
 }
 
 

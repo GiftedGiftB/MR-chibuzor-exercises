@@ -67,6 +67,13 @@ public class Kata{
 	return (Math.sqrt(number) % 1 == 0);
 
 }*/
+	// number 7
+
+	public static boolean isPalindrome(int number){
+
+
+}
+
 	// number 8
 
 	/* public static long factorialOf(int number){

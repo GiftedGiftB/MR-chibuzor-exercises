@@ -46,7 +46,9 @@ public class KataDriver{
 
 	// number 7
 
-	
+	System.out.print("Enter a five digit number: ");
+	int palindromeNumber = input.nextInt();
+	System.out.print(kata.isPalindrome(palindromeNumber));
 
 	// number 8
 
