@@ -1,13 +1,14 @@
 public class MinMaxAtCurrentIndexFunction{
-
-	public static String atCurrentIndex(int[] numbers){
-	int sum = 0;
 	
+	public static String atCurrentIndex(int[] numbers){
+
+	int sum = 0;
+	int minimum = 0;
+	int maximum = 0;	
 	for(int count = 0; count < numbers.length; count++){
 
 	sum += numbers[count];
 
-	}
 	//System.out.println(sum);
 	
 
@@ -20,8 +21,8 @@ public class MinMaxAtCurrentIndexFunction{
 	//System.out.println(index[counter]);
 	}
 	
-	int minimum = index[0];
-	int maximum = index[0];
+	minimum = index[0];
+	maximum = index[0];
 
 	for(int counting = 0; counting < index.length; counting++){
 	
@@ -32,6 +33,7 @@ public class MinMaxAtCurrentIndexFunction{
 	maximum = index[counting];
 	}
 	}
-	return minimum + ", " + maximum;
 	}
+	return minimum + ", " + maximum;
+}
 }

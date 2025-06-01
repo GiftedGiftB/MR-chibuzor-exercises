@@ -11,18 +11,18 @@ public class StudyingArraySorting{
 
 
 	char[] characters = {'a','z','b','w','c','A','D','Z','C'};
-	Array.sort(characters);
+	Arrays.sort(characters);
 
 
 	int[] unicodes = {'a','z','b','w','c','A','D','Z','C'};
-	Array.sort(unicodes); 
+	Arrays.sort(unicodes); 
 	
 	int[] numbers = {5,4,3,2,1,0,-1};
 	Arrays.sort((numbers));
 
-	System.out.print(Array.binarySearch(numbers,4));
-	System.out.print(Array.binarySearch(numbers,3));
-	System.out.print(Array.binarySearch(numbers,-3)); */
+	System.out.print(Arrays.binarySearch(numbers,4));
+	System.out.print(Arrays.binarySearch(numbers,3));
+	System.out.print(Arrays.binarySearch(numbers,-3)); */
 
 
 

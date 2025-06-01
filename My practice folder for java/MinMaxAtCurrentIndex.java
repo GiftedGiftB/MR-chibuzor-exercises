@@ -5,6 +5,7 @@ public class MinMaxAtCurrentIndex{
 	
 	
 	System.out.println(MinMaxAtCurrentIndexFunction.atCurrentIndex(numbers));
+
   }
 
 }
