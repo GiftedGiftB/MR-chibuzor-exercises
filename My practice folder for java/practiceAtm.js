@@ -1,4 +1,4 @@
-function cardNumber(number){
+function cardNumber{
 
 let Visa = {
 		valid:true,
@@ -16,7 +16,7 @@ let DiscoverO = {
 }
 
 let  AmericaExpress = {
-		valid:true,
+		valid:true, 
 		issuer:"America Express",
 }
 let invalid = {
@@ -62,6 +62,16 @@ let discover = [6,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 let America_express = [4,2,3,4,5,6,7,8,9,10,11,12,13,14,15 ]
 
 
-result = cardNumber(visa);
+result = cardNumber.visa(visa);
+console.log(result);
 
-	console.log(result);
+result = cardNumber.mastercard(mastercard);
+console.log(mastercard);
+
+result = cardNumber.visa(discover);
+console.log(discover);
+
+result = cardNumber.America_express(America_express);
+console.log(America_express);
+
+
