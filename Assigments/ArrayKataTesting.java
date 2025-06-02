@@ -16,13 +16,24 @@ public class ArrayKataTesting{
 
 	// number 3
 	
-	System.out.print("Enter a number: ");
-	int[] userNumber = {10,15,2,6,20};
+	//System.out.print("Enter a number: ");
+	/*int[] userNumber = {10,15,2,6,20};
 
-	System.out.print("The sum is: " + ArrayKata.sumOf(userNumber));
+	System.out.print("The sum is: " + ArrayKata.sumOf(userNumber)); */
+
+
+	// number 4
+	/* int[] number = {10,15,2,6,20};
+	System.out.print("The sum of the even number is: " + ArrayKata.sumOfEvenNumbersIn(number)); */
+
+
+	// number 5
+	/* int[] number = {10,15,2,6,20};
+	System.out.print("The sum of the odd number is: " + ArrayKata.sumOfOddNumbersIn(number)); */
+
 
 	// number 6
-	System.out.print("Enter number of element: ");
+	/* System.out.print("Enter number of element: ");
 	int integer = input.nextInt();
 
 	int[] number = new int[integer];
@@ -33,7 +44,13 @@ public class ArrayKataTesting{
 	for(int count = 0; count < number ; count++){
 
 }
-	System.out.print("The maximum number is: " + ArrayKata.maximumAndMinimumOf());
+	System.out.print("The maximum number is: " + ArrayKata.maximumAndMinimumOf()); */
+
+	// number 7
+	int[] number = {10,15,2,6,20};
+	System.out.print("The odd number is: " + ArrayKata.noOfOddNumbersIn(number));
+
+
   }
 
 }
