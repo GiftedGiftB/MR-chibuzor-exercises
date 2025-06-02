@@ -96,6 +96,21 @@ public class ArrayKata{
 	}
 	
 
+	// number 8
+
+	public static int noOfEvenNumbersIn(int[] number){
+	int counter = 0;
+
+	for(int count = 0 ; count < number.length; count++){ 
+
+	if(number[count] % 2 == 0){
+	counter = number[count];
+	}
+	}
+	return counter;
+
+	}
+
 	
 }
 

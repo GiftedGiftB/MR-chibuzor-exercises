@@ -47,8 +47,13 @@ public class ArrayKataTesting{
 	System.out.print("The maximum number is: " + ArrayKata.maximumAndMinimumOf()); */
 
 	// number 7
+	/* int[] number = {10,15,2,6,20};
+	System.out.print("The odd number is: " + ArrayKata.noOfOddNumbersIn(number)); */
+
+
+	// number 8
 	int[] number = {10,15,2,6,20};
-	System.out.print("The odd number is: " + ArrayKata.noOfOddNumbersIn(number));
+	System.out.print("The even numbers are: " + ArrayKata.noOfEvenNumbersIn(number));
 
 
   }
