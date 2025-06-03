@@ -6,8 +6,11 @@ public class SubtractionProblem{
 	Scanner input = new Scanner(System.in);
 
 	int tempNumber = 0;
+	int failCounter =0;
+	int passCounter = 0;
+	int count = 0;
 
-	for(int count = 0; count < 3; count++){
+	for(count = 0; count < 3; count++){
 
 	int randChoice1 = rand.nextInt(100) + 1;
 	int randChoice2 = rand.nextInt(100) + 1;
@@ -31,12 +34,18 @@ public class SubtractionProblem{
 	int userAnswer = input.nextInt();
 	
 	if(userAnswer == total){
-	System.out.print("You are correct");
+	System.out.println("You are correct");
+	passCounter++;
 	}
 	else if(userAnswer != total){
-	System.out.print("You wrong");
+	System.out.println("You wrong");
+	total = randChoice1 - randChoice2;
+	
+	System.out.print("Whats the answer: ");
+	userAnswer = input.nextInt();
+	failCounter++;
 	}
 	}
-
-}
+	System.out.println("You failed " + failCounter + " question " + " passed " + passCounter + " questions " + " and you attempted " + count + " questions all together");
+	}
 }
