@@ -1,9 +1,10 @@
+import java.util.Arrays;
 import java.util.Scanner;
 public class Arraylist{
 	public static void main(String[] args){
 	Scanner input = new Scanner(System.in);
 
-	ArrayList<Integer> integer = new ArrayList<>();
+	ArrayList<Integers> integers = new ArrayList<>();
 
 	System.out.println("Enter 5 integer");
 	
@@ -11,14 +12,12 @@ public class Arraylist{
 
 		int temp = input.nextInt();
 
-		if(integers.contains(temp))
+		if(!integers.contains(temp))
 
 			integers.add(temp);
 }
-	collection.sort(integers);
+	Collection.sort(integers);
 	System.out.println(integers);
-
-}
 
  }
 }
