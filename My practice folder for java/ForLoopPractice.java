@@ -11,10 +11,12 @@ public class ForLoopPractice{
 		System.out.print(count + " "); */
 
 
-	for(int count = 1; count <= 10; count += 2)
+	/* for(int count = 1; count <= 10; count += 2)
+		System.out.print(count + " "); */
+
+	
+	 for(int count = 4; count <= 10; count += 4)
 		System.out.print(count + " ");
-
-
 }
 
 }
