@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class AccountTest{
 	public static void main(String[] args){
-	Scanner input = new Scanner(System.in);
+	java.util.Scanner input = new java.util.Scanner(System.in);
+	//Scanner input = new Scanner(System.in);
 
 	Account myAccount = new Account();
 
