@@ -19,7 +19,7 @@ public class SecondHighest{
 	while(counter != NumberOfStudent) {
 
 	System.out.print("Enter student name: ");
-	studentName = scan.nextInt();
+	studentName = scan.next();
 
 	System.out.print("Enter student score: ");
 	studentScore = scan.nextInt();
