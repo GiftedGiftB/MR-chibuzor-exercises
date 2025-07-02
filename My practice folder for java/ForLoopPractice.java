@@ -1,28 +1,45 @@
-public class ForLoopPractice{
-	public static void main(String[] args){
+import java.util.Scanner;
 
-	
-	/* for(int count = 1; count <= 10; count++)
-		System.out.print(count + " "); */
+public class ForLoopPractice {
+	// 1
+	public static void oneToTen() {
+        for(int count = 1; count <= 10; count++)
+		System.out.printf(count + " ");
+	System.out.println();
 
-	
-		
-	/* for(int count = 2; count <= 10; count += 2)
-		System.out.print(count + " "); */
+    }
+	// 2
+	public static void evenNumber(int number){
 
+	for(int count = 2; count <= number; count += 2)					System.out.print(count + " ");	
 
-	/* for(int count = 1; count <= 10; count += 2)
-		System.out.print(count + " "); */
-
-	
-	 /* for(int count = 4; count <= 10; count += 4)
-		System.out.print(count + " "); */
-
-
-	 for(int count = 4; count <= 10; count += 4)
-		 for(int counter = 1; counter <= 5; counter++)
-		
+        }
+	// 3
+	public static void oddNumber(int numbers){
+	for(int count = 1; count <= numbers; count += 2){
 		System.out.print(count + " ");
-}
+	}
+	}
 
+
+
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+
+        // 1
+	oneToTen();
+	System.out.println();
+
+	// 2
+	System.out.print("Enter a number: ");
+	int userNumber = input.nextInt();
+	evenNumber("The even number is: " + userNumber);
+	System.out.println();
+	
+	// 3
+	System.out.print("Enter a number: ");
+	int number = input.nextInt();
+	oddNumber("The odd number is: " + number);
+
+	}
 }

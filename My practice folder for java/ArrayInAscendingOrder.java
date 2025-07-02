@@ -1,4 +1,4 @@
-public class ArrayInAscendingOrder{
+/* public class ArrayInAscendingOrder{
 	public static void main(String[] args){
 
 
@@ -30,4 +30,4 @@ public class ArrayInAscendingOrder{
 
 }
 
-} 
+}  */

@@ -1,4 +1,4 @@
-public class Account{
+/* public class Account{
 	private String name;
 
 	public void setName(String name){
@@ -7,4 +7,4 @@ public class Account{
 	public String getName(){
 		return name;
 	}
-}
+} */

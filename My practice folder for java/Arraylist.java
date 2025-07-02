@@ -1,4 +1,4 @@
-import java.util.Arrays;
+/* import java.util.Arrays;
 import java.util.Scanner;
 public class Arraylist{
 	public static void main(String[] args){
@@ -20,4 +20,4 @@ public class Arraylist{
 	System.out.println(integers);
 
  }
-}
+} */

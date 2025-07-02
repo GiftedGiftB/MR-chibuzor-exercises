@@ -1,4 +1,4 @@
-public class Checkings{
+/* public class Checkings{
 	public static boolean main(int[] arr, int numbers){
 	
 	int[] numbers = {64,65,10,11};
@@ -17,4 +17,4 @@ public class Checkings{
 		}
 }
 
-}
+} */

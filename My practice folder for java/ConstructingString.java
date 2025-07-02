@@ -1,4 +1,4 @@
-public class ConstructingString{
+/* public class ConstructingString{
 	public static void main(String[] args){
 
 
@@ -9,4 +9,4 @@ public class ConstructingString{
 	System.out.print(message);
 
  } 
-}
+} */

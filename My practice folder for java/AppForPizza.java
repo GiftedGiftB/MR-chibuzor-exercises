@@ -3,7 +3,7 @@ public class AppForPizza{
 	public static void main(String[] args){
 	  
 
-	menu();
+/*	menu();
 }
 
  public static void menu(){
@@ -45,28 +45,20 @@ System.out.print("""
 """);
 
 	food = input.nextInt();
-	switch(food){
-	case 1:
+	switch(food) {
+		case 1:
 
-
+	}
 	System.out.print("You selected: " + menu + drinks + " and "+ food);
 
 	System.out.print("press ---- to go back to menu OR ---- to exit");
 
-break;
+/* break;
 case 0;
 menu();
 break;
 }
 }
-}
-
-
+} */
  }
 }
-
-
-
-
-
-

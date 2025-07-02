@@ -1,4 +1,4 @@
-public class SmallestAndLargestIndex{
+/* public class SmallestAndLargestIndex{
 	public static void main(String[] args){
 	
 
@@ -19,4 +19,4 @@ public class SmallestAndLargestIndex{
 		System.out.print(indexNumber);
 
 }
-}
+} */
