@@ -9,8 +9,8 @@ public class TasksOnline {
     }
 
     public static int totalBillWithTaxAndTip(int billAmount, int taxPercent, int tipPercent) {
-        int taxAmount = (billAmount * taxPercent / 100);
-        int tipAmount = (billAmount * tipPercent / 100);
+        int taxAmount = billAmount * taxPercent / 100;
+        int tipAmount = billAmount * tipPercent / 100;
         int result = billAmount + taxAmount + tipAmount;
         return result;
     }
