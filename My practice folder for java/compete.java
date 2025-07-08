@@ -8,12 +8,17 @@ public class compete{
 
 	} */
 
-	for(int count = 4; count <= 10; count += 4){
+	/* for(int count = 4; count <= 10; count += 4){
 
-	System.out.print(count + " ");
+	System.out.print(count + " "); */
 
 	}
 
+	public static int priceAfterDiscount(int price, int discount){
+		result = price - discount;
+	
+
+	}
 
 
 }

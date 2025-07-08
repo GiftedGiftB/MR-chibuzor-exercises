@@ -11,7 +11,8 @@ public class ForLoopPractice {
 	// 2
 	public static void evenNumber(int number){
 
-	for(int count = 2; count <= number; count += 2)					System.out.print(count + " ");	
+	for(int count = 2; count <= number; count += 2)	
+	System.out.print(count + " ");	
 	System.out.println();
         }
 	// 3
