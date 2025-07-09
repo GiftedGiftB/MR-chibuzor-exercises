@@ -40,6 +40,20 @@ public class TasksOnline{
 
 	System.out.print("The sum is: " + sum); */
 
+	// number 6
+
+	/* boolean result = isEven(10);
+	System.out.print(result); */
+	
+	// number 7
+
+	int num1 = 3;
+	int num2 = 7;
+	int num3 = 2;
+	int result = findMax(num1 , num2, num3);
+	System.out.print(result);
+
+
     }
 
 
@@ -76,9 +90,36 @@ public class TasksOnline{
 
 	// number 5
 
-	public static int addNumber(int number, int digit){
+	/* public static int addNumber(int number, int digit){
 		int sum = number + digit;
 			return sum;
+	} */
+
+	// number 6
+
+	/* public static boolean isEven(int number){
+		if(number % 2 == 0){
+		return true;
+		}
+		return false; */
+		
 	}
+
+	// number 7
+		
+	//public static int findMax(int num1, int num2, int num3){
+	public static int findMax(int num1, int num2, int num3) {
+        int max = num1;
+        if (num2 > max) {
+            max = num2;
+        }
+        if (num3 > max) {
+            max = num3;
+        }
+        return max;
+
+	}
+}
+
 
 }
