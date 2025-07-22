@@ -6,7 +6,8 @@ public class DoWhileTest{
 	do {
 		System.out.printf("%d ", counter);
 		++counter;
-	} while (counter <= 10);
+	}
+	while (counter <= 10);
 
 	System.out.println();
 }
