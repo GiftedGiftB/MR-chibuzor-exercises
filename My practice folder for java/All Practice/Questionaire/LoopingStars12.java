@@ -8,6 +8,8 @@ public class LoopingStars12{
 		counter++;
 	}
 	System.out.println(counter + " stars");
+
+
 }
 
 }
