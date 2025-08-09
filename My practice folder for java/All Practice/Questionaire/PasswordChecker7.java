@@ -14,5 +14,5 @@ public class PasswordChecker7{
 	System.out.print("Access denied!");
 	}
 }
-
+ 
 }
