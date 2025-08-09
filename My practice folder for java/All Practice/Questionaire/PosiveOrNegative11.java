@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PossiveOrNegative11{
+public class PosiveOrNegative11{
 	public static void main(String[] args){
 	Scanner input = new Scanner(System.in);
 
