@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PaswordRetry25{
+public class PasswordRetry25{
 	public static void main(String[] args){
 	Scanner input = new Scanner(System.in);
 	
