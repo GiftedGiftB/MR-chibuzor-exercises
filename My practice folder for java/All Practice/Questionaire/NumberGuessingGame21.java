@@ -4,7 +4,7 @@ public class NumberGuessingGame21{
 	Scanner input = new Scanner(System.in);
 
 	String secret = "8";
-	String userGuess = "";
+	String userGuess = " ";
 
 	while(userGuess != secret){
 		System.out.println("Guess the number: ");
