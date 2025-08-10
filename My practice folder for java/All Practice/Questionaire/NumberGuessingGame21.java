@@ -4,14 +4,19 @@ public class NumberGuessingGame21{
 	Scanner input = new Scanner(System.in);
 
 	String secret = "8";
-	String userGuess;
-	System.out.print("Guess the number: ");
-	userGuess = input.nextLine();
-	
-	if(userGuess == secret){
-	System.out.print("correct!");
-	} else {
-	System.out.print("Try again!");
-	}
+	String userGuess = "";
+
+	while(userGuess != secret){
+		System.out.println("Guess the number: ");
+		userGuess = input.nextLine().toLowerCase();
+
+		if(userGuess.equals(secret)){
+			System.out.println("correct!");
+			break;
+		}
+		else {
+			System.out.println("Try again!");
+		}
+		}
 }
 }
