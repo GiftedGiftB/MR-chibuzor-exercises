@@ -6,8 +6,9 @@ public class PaswordRetry25{
 	String correctPassword = "gift123";
 	String userInput = " ";
 	int count = 0;
+	int maximumCount = 2;
 
-while(userInput != count){
+while(userInput != correctPassword){
 	System.out.print("Enter your Password: ");
 	userInput = input.nextLine();
 
@@ -15,9 +16,13 @@ while(userInput != count){
 		System.out.print("Success!");
 		break;
 	}
-	else {
+	else if(count < maximumCount){
 		System.out.println("Try again");
 		count++;
+	}
+	else {
+		System.out.print("Locked out");
+		break;
 	}
 	}
 
