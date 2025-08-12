@@ -23,5 +23,8 @@ public class SimpleCalculator28{
 	int result = firstNumber - secondNumber;
 	System.out.print(firstNumber + " - " + secondNumber + " = " + result);
 	}
+	else{
+	System.out.print("Enter + or - ");
+	}
 }
 }
