@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TaskEight{
+public class TaskNine{
 	public static void main(String[] args){
 	Scanner input = new Scanner(System.in);
 	
@@ -12,8 +12,8 @@ public class TaskEight{
 	for(int count = 1; count <= 10; count++){
 		System.out.print("Enter score: ");
 		int score = input.nextInt();
-	while(score < 0 || score > 100){
-	System.out.println("Enter number between 0 - 100");
+	while(score < 0 || score > 10){
+	System.out.println("Enter number between 1 - 10");
 	score = input.nextInt();
 	}
 	if(score % 2 == 0){
