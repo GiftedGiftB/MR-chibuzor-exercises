@@ -4,11 +4,10 @@ public class SumOfEven32Function{
 
 	int total = sum();
 	System.out.println(total);
-
 }
 
 	public static int sum(){
-	int total = 0;
+	int total = 0; 
 
 	for(int counter = 1; counter <= 20; counter++){
 		if(counter % 2 == 0){
