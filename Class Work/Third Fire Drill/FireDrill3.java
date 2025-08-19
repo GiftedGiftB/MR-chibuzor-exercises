@@ -5,6 +5,10 @@ public static void main(String[] args){
 	taskThree();
 	System.out.println(" ");
 	taskFour();
+	System.out.println(" ");
+	taskFive();
+
+	
 
 }
 
@@ -40,6 +44,13 @@ public static void taskFour(){
 		}
 
 }
+public static void taskFive(){
+	int[] score = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+		for (int count = 3; count < score.length; count += 3){
+			System.out.println(score[count]);
 
+		}
+
+}
 
 }
