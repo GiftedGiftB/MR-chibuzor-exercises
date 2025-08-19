@@ -7,6 +7,12 @@ public static void main(String[] args){
 	taskFour();
 	System.out.println(" ");
 	taskFive();
+	System.out.println(" ");
+
+	int[] score = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+	int result = taskSix(score);
+	System.out.print("Sum is: " + result);
+	
 
 	
 
@@ -50,6 +56,14 @@ public static void taskFive(){
 			System.out.println(score[count]);
 
 		}
+
+}
+public static int taskSix(int[] score){
+int sum = 0;
+	for (int count = 0; count < score.length; count++){
+		sum += score[count];
+		}
+			return sum;
 
 }
 
